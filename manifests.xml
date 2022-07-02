@@ -2,7 +2,7 @@
 <manifest>
  
  <remote  name="r"
-fetch="https://github.com/aetherAF"/>
+    <remote  name="Android-12L"fetch="https://github.com/aetherAF"/>
     <remote  name="r" fetch="https://github.com/Redmi-MT6768" />
  <remote  name="clang" fetch="https://github.com/kdrag0n" />
  <remote  name="g"
