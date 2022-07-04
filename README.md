@@ -7,7 +7,7 @@ Just grab the manifest and sync to get device sources
 curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/aetherAF/local_manifests/master/eleven.xml --create-dirs
 
 # Sync
-repo sync -j$(nproc --all) --force-sync
+repo sync --current-branch --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$( nproc --all )
 
 ### LineageOS S ###
 
