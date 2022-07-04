@@ -1,1 +1,2 @@
-[A11] Custom Trees for Redmi 9/Poco M2 (lava)
+
+[Modified] Redmi-MT6768 for Lava - Custom Trees | local_manifests
