@@ -4,7 +4,7 @@ Just grab the manifest and sync to get device sources
 
 
 # Grab Local Manifest
-curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/aetherAF/local_manifests/master/eleven.xml --create-dirs
+curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/aetherAF/local_manifests/eleven/eleven.xml --create-dirs
 
 # Sync
 repo sync --current-branch --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$( nproc --all )
